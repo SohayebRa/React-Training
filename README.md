@@ -1,4 +1,4 @@
-# These are some exercises done with React
+# Some exercises done with React
 
 ### Exercise 01
 
