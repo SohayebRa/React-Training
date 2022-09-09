@@ -1,0 +1,50 @@
+.calculator {
+  width: 20rem;
+  margin: 3rem auto 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border: 1px solid #101010;
+  border-radius: 5px;
+  background-color: #262626;
+  box-sizing: border-box;
+  padding: 0.25rem;
+}
+
+.calculator .screen {
+  color: white;
+  box-sizing: border-box;
+  padding: 5.5rem 1rem 1rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-size: 1.5rem;
+}
+
+.calculator .keyboard .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.25rem;
+  margin: 0.25rem 0;
+}
+
+.calculator .keyboard .grid button {
+  padding: 1.6rem;
+  transition: 0.3s;
+}
+
+.calculator .keyboard .grid button:hover {
+  cursor: pointer;
+  filter: brightness(75%);
+}
+
+.calculator .keyboard .resultButton {
+  padding: 1.6rem;
+  width: 100%;
+  background-color: rgb(232, 117, 3);
+}
+
+.calculator .keyboard .resultButton:hover {
+  cursor: pointer;
+  filter: brightness(75%);
+}

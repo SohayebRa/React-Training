@@ -1,0 +1,22 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card h3 {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.card p {
+  margin: 0;
+  text-align: start;
+}

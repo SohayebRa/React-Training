@@ -1,0 +1,40 @@
+.inputConverter {
+  width: 25rem;
+  margin: 3rem auto 0;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.inputConverter input {
+  width: 100%;
+  border: 1px solid #404040;
+  border-radius: 2px;
+  box-sizing: border-box;
+  padding: 1rem 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.buttonsConverter {
+  width: 25rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 0 auto;
+}
+
+.buttonsConverter button {
+  background-color: #404040;
+  color: white;
+  padding: 1rem 1.5rem;
+  border: none;
+  width: 100%;
+}
+
+.resultConverter {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #404040;
+  margin: 2.5rem 0 0;
+}

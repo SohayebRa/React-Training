@@ -1,0 +1,34 @@
+.input {
+  width: 25rem;
+  margin: 3rem auto;
+}
+
+.input input {
+  width: 100%;
+  border: 1px solid #404040;
+  border-radius: 2px;
+  box-sizing: border-box;
+  padding: 1rem 1.5rem;
+}
+
+.movies {
+  width: 80rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+@media (min-width: 950px) {
+  .movies {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2rem;
+  }
+}
+
+.loadDiv {
+  background-color: #404040;
+  width: 100%;
+  height: 100%;
+}

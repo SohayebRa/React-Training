@@ -1,0 +1,44 @@
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #404040;
+  margin: 0;
+}
+
+ul {
+  width: 25rem;
+  padding: 0;
+  margin: 2.5rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+ul li {
+  list-style: none;
+  text-align: center;
+  color: #656565;
+}
+
+p {
+  font-size: 1rem;
+  color: #8d8d8d;
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.buttons {
+  width: 25rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 0 auto;
+}
+
+button {
+  background-color: #404040;
+  color: white;
+  padding: 1rem 1.5rem;
+  border: none;
+}
